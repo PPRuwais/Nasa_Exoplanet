@@ -1,3 +1,7 @@
+Got it 👍 You want your README to look properly formatted in GitHub (with sections, code blocks, and highlights), not just pasted text. Right now, your draft mixes plain text with "Line Wrapping / Collapse Copy" which comes from a copy-paste, so we’ll clean it.
+
+Here’s a fixed and polished version of your README.md (ready to paste into your repo):
+
 🌌 NASA Kepler Exoplanet Classifier
 
 A machine learning web application that classifies Kepler Objects of Interest (KOIs) as either confirmed exoplanets, false positives, or uncertain candidates.
@@ -39,19 +43,14 @@ pip install -r requirements.txt
 
 # Run the app
 streamlit run streamlit_app.py
-
-Quick Demo
 # Run the app with default values
 streamlit run streamlit_app.py
-
-📁 Project Structure
 nasa_exoplanet/
 ├── streamlit_app.py                 # Main Streamlit application
 ├── requirements.txt                 # Dependencies
 ├── exoplanet_binary_classifier_rf.pkl # Trained Random Forest model
 ├── feature_scaler_rf.pkl            # Feature scaler for preprocessing
 └── README.md                        # Documentation
-
 🔧 System Components
 1. Streamlit Application (streamlit_app.py)
 
@@ -84,7 +83,6 @@ B --> C[Data Scaling]
 C --> D[Random Forest Model]
 D --> E[Prediction + Confidence Score]
 E --> F[Results Display]
-
 🔬 Features Used
 
 Orbital Period (koi_period) – time to complete orbit (days)
@@ -130,8 +128,6 @@ input_data = {
   'koi_depth': 100
 }
 # Expected: CONFIRMED EXOPLANET (high confidence)
-
-Example 2: False Positive
 input_data = {
   'koi_period': 0.8,
   'koi_prad': 15.0,
@@ -141,30 +137,6 @@ input_data = {
   'koi_depth': 60000
 }
 # Expected: FALSE POSITIVE (high confidence)
-
-🛠️ Troubleshooting
-
-Model Loading Error
-
-Error: Model or Scaler could not be loaded
-
-
-✅ Ensure .pkl files are in the correct directory.
-
-Prediction Error
-
-Error: Please enter valid numerical values
-
-
-✅ Enter valid numbers in all fields.
-
-Module Not Found
-
-Error: No module named 'joblib'
-
-
-✅ Run pip install -r requirements.txt
-
 🤝 Contributing
 
 Fork the project
