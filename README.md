@@ -1,6 +1,4 @@
-Got it 👍 You want your README to look properly formatted in GitHub (with sections, code blocks, and highlights), not just pasted text. Right now, your draft mixes plain text with "Line Wrapping / Collapse Copy" which comes from a copy-paste, so we’ll clean it.
 
-Here’s a fixed and polished version of your README.md (ready to paste into your repo):
 
 🌌 NASA Kepler Exoplanet Classifier
 
